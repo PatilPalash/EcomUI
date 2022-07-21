@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Glide js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/main.js" async></script>
+    <title>Online Store</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <!-- Top Nav -->
+      <div class="top-nav">
+        <div class="container d-flex">
+          <p>Order Online Or Call Us: (001) 2222-55555</p>
+          <ul class="d-flex">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Online Store</h1></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex"></span>
+            </div>
+            <a href="product.html" class="icon">
+              <i class="bx bx-cart" id="cart-icon"></i>
+              <span class="d-flex"></span>
+            </a>
+          </li>
+          </ul>
+
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="product.html" class="icon">
+              <i class="bx bx-cart" id="cart-icon"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+    <div class="hero">
+      <div class="glide" id="glide_1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span class="">New Inspiration 2022</span>
+                  <h1 class="">NEW COLLECTION!</h1>
+                  <p>Trending Electronics collection</p>
+                  <a href="product.html" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                    <img class="img1" src="./images/hero-1.png" alt="">
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span>New Inspiration 2022</span>
+                  <h1>THE PERFECT</h1>
+                  <p>Trending Electronics collection</p>
+                  <a href="product.html" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img2" src="./images/hero-2.png" alt="">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section class="section category">
+      <div class="cat-center">
+        <div class="cat">
+          <img src="./images/product3.jpg" alt="" />
+          <div>
+            <p>METAL BOTTLE</p>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="./images/product4.jpg" alt="" />
+          <div>
+            <p>SUNGLASSES</p>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="./images/product6.jpg" alt="" />
+          <div>
+            <p>GALAXY Z FOLD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>NEW ARRIVALS</h1>
+        <p>All The Latest Picked From Flipkart Store</p>
+      </div>
+      <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="./images/product1.jpg" alt="" class="product-img">
+                <a href="productDetails.html" class="product-title">Nike Shoes</a><br>
+                <span class="product-price">$79.5</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="./images/product2.jpg" alt="" class="product-img">
+                <a href="productDetails1.html" class="product-title">BACKPACK</a><br>
+                <span class="product-price">$59.5</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="./images/product3.jpg" alt="" class="product-img">
+                <a href="productDetails2.html" class="product-title">METAL BOTTLE</a><br>
+                <span class="product-price">$29.5</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="./images/product4.jpg" alt="" class="product-img">
+                <a href="productDetails3.html" class="product-title">METAL SUNGLASSES</a><br>
+                <span class="product-price">$105</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="./images/product5.jpg" alt="" class="product-img">
+                <a href="productDetails4.html" class="product-title">PS5 Controller</a><br>
+                <span class="product-price">$95</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="./images/product6.jpg" alt="" class="product-img">
+                <a href="productDetails5.html" class="product-title">Galaxy Z Fold</a><br>
+                <span class="product-price">$1400</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="./images/product7.jpg" alt="" class="product-img">
+                <a href="productDetails6.html" class="product-title">Nokon Camera</a><br>
+                <span class="product-price">$1700</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="./images/product8.jpg" alt="" class="product-img">
+                <a href="productDetails7.html" class="product-title">Apple Watch</a><br>
+                <span class="product-price">$110.5</span><br>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    </section>
+
+
+    <!-- Promo -->
+
+    <section class="section banner">
+<div class="left">
+  <span class="trend">Trend</span>
+  <h1>New Collection 2022</h1>
+  <p>New Arrival <span class="color">Sale 50% OFF</span> Limited Time Offer</p>
+  <a href="index.html" class="btn btn-1">Discover Now</a>
+</div>
+<div class="right">
+  <img src="./images/banner.png" alt="">
+</div>
+    </section>
+
+
+
+
+    <!-- Featured -->
+  
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>Featured</h1>
+        <p>All the latest picked from Flipkart store</p>
+      </div>
+
+      <section class="shop container">
+        <h2 class="section-title">Featured Products</h2>
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="./images/product5.jpg" alt="" class="product-img">
+                <a href="productDetails5.html" class="product-title">PS5 Controller</a><br>
+                <span class="product-price">$95</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="./images/product6.jpg" alt="" class="product-img">
+                <a href="productDetails5.html" class="product-title">Galaxy Z Fold</a><br>
+                <span class="product-price">$1400</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="./images/product7.jpg" alt="" class="product-img">
+                <a href="productDetails7.html" class="product-title">Nokon Camera</a><br>
+                <span class="product-price">$1700</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="./images/product8.jpg" alt="" class="product-img">
+                <a href="productDetails8.html" class="product-title">Apple Watch</a><br>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact">
+      <div class="row">
+        <div class="col">
+          <h2>EXCELLENT SUPPORT</h2>
+          <p>We love our customers and they can reach us any time
+          of day we will be at your service 24/7</p>
+          <a href="contact.html" class="btn btn-1">Contact</a>
+        </div>
+        <div class="col">
+          <form action="">
+            <div>
+              <input type="email" placeholder="Email Address">
+            <a href="">Send</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="product.html">Shipping</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <span><i class='bx bxl-instagram-alt' ></i></span>
+          <span><i class='bx bxl-github' ></i></span>
+          <span><i class='bx bxl-twitter' ></i></span>
+          <span><i class='bx bxl-pinterest' ></i></span>
+        </div>
+      </div>
+    </footer>
+
+
+  <!-- PopUp -->
+  <div class="popup hide-popup">
+    <div class="popup-content">
+      <div class="popup-close">
+        <i class='bx bx-x'></i>
+      </div>
+      <div class="popup-left">
+        <div class="popup-img-container">
+          <img class="popup-img" src="./images/popup.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup-right">
+        <div class="right-content">
+          <h1>Get Discount <span>50%</span> Off</h1>
+          <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup-form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+</html>

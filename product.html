@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <title>Online Store</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+     <!-- HEADER  -->
+     <header>
+      <!-- NAV  -->
+      <div class="nav container">
+          <a href="index.html" class="logo">Online Store</a>
+          <!-- CART ICON  -->
+          <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+          <!-- CART  -->
+          <div class="cart">
+              <h2 class="cart-title">Your Cart</h2>
+
+              <!-- CONTENT  -->
+              <div class="cart-content">
+
+
+              </div>
+
+              <!-- TOTAL   -->
+              <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">$0</div>
+              </div>
+              <!-- BUY BUTTON  -->
+              <button type="button" class="btn-buy">Buy Now</button>
+              <!-- CART CLOSE  -->
+              <i class='bx bx-x' id="cart-close"></i>
+          </div>
+      </div>
+  </header>
+
+
+    <!-- All Products -->
+    <section class="section all-products" id="products">
+      <div class="top container">
+        <h1>All Products</h1>
+        <form>
+          <select>
+            <option value="1">Defualt Sorting</option>
+            <option value="2">Sort By Price</option>
+            <option value="3">Sort By Popularity</option>
+            <option value="4">Sort By Sale</option>
+            <option value="5">Sort By Rating</option>
+          </select>
+          <span><i class="bx bx-chevron-down"></i></span>
+        </form>
+      </div>
+      
+      <!-- SHOP SECTION  -->
+    <section class="shop container">
+          <!-- CONTENT  -->
+      <div class="shop-content">
+          <!-- BOX 1 -->
+          <div class="product-box">
+              <img src="./images/product1.jpg" alt="" class="product-img">
+              <a href="productDetails.html" class="product-title">Nike Shoes</a><br>
+              <span class="product-price">$79.5</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 2 -->
+          <div class="product-box">
+              <img src="./images/product2.jpg" alt="" class="product-img">
+              <a href="productDetails1.html" class="product-title">BACKPACK</a><br>
+              <span class="product-price">$59.5</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 3 -->
+          <div class="product-box">
+              <img src="./images/product3.jpg" alt="" class="product-img">
+              <a href="productDetails2.html" class="product-title">METAL BOTTLE</a><br>
+              <span class="product-price">$29.5</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 4 -->
+          <div class="product-box">
+              <img src="./images/product4.jpg" alt="" class="product-img">
+              <a href="productDetails3.html" class="product-title">METAL SUNGLASSES</a><br>
+              <span class="product-price">$105</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 5 -->
+          <div class="product-box">
+              <img src="./images/product5.jpg" alt="" class="product-img">
+              <a href="productDetails4.html" class="product-title">PS5 Controller</a><br>
+              <span class="product-price">$95</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 6 -->
+          <div class="product-box">
+              <img src="./images/product6.jpg" alt="" class="product-img">
+              <a href="productDetails4.html" class="product-title">Galaxy Z Fold</a><br>
+              <span class="product-price">$1400</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 7 -->
+          <div class="product-box">
+              <img src="./images/product7.jpg" alt="" class="product-img">
+              <a href="productDetails6.html" class="product-title">Nokon Camera</a><br>
+              <span class="product-price">$1700</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- BOX 8 -->
+          <div class="product-box">
+              <img src="./images/product8.jpg" alt="" class="product-img">
+              <a href="productDetails7.html" class="product-title">Apple Watch</a><br>
+              <span class="product-price">$110.5</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+      </div>
+  </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+  <script src="./js/cart.js"></script>
+  </body>
+</html>
